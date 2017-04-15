@@ -1,7 +1,6 @@
 package hu.helixlab.homework.homework05;
 
 import java.util.Random;
-import java.util.RandomAccess;
 
 public class MatrixOperation implements IMatrixOperation{
 

@@ -11,12 +11,12 @@ public class Main {
 
         System.out.println(sort.bubbleSort());
 */
-        int[][] array = new int[4][4];
-
         MatrixOperation matrixOperation = new MatrixOperation();
 
         System.out.println();
         System.out.println("Második feladat");
+
+        int[][] array = new int[4][4];
         matrixOperation.printMatrix(array);
 
         System.out.println();
