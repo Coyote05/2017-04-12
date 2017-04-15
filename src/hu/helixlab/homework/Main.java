@@ -6,11 +6,15 @@ import hu.helixlab.homework.homework05.Sort;
 public class Main {
 
     public static void main(String[] args) {
-/*
+
         Sort sort = new Sort();
 
-        System.out.println(sort.bubbleSort());
-*/
+        System.out.println();
+        System.out.println("Első és negyedik feladat");
+
+        int[] bubble = {8, 7, 3, 2, 10, 5, 6, 4, 1, 9};
+        sort.bubbleSort(bubble);
+
         MatrixOperation matrixOperation = new MatrixOperation();
 
         System.out.println();
