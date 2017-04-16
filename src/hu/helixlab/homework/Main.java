@@ -20,14 +20,13 @@ public class Main {
         System.out.println();
         System.out.println("Második feladat");
 
-        int[][] array = new int[4][4];
-        matrixOperation.printMatrix(array);
+        matrixOperation.printMatrix();
 
         System.out.println();
         System.out.println("Harmadik feladat");
 
         int[][] array2 = new int[5][5];
         matrixOperation.initMatrixWithRandomNumbers(array2, 2,5);
-
+        
     }
 }
