@@ -20,7 +20,8 @@ public class Main {
         System.out.println();
         System.out.println("Második feladat");
 
-        matrixOperation.printMatrix();
+        int[][] array = {{1,0,1,1},{0,1,1,1},{1,0,0,0},{0,0,0,0}};
+        matrixOperation.printMatrix(array);
 
         System.out.println();
         System.out.println("Harmadik feladat");
