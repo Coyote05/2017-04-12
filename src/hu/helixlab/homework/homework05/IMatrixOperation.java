@@ -4,5 +4,5 @@ public interface IMatrixOperation {
 
     void printMatrix(int[][] array);
 
-    void initMatrixWithRandomNumbers(int m, int n, int randomMin, int randomMax);
+    int[][] initMatrixWithRandomNumbers(int m, int n, int randomMin, int randomMax);
 }

@@ -17,8 +17,9 @@ public class MatrixOperation implements IMatrixOperation{
             System.out.println();
         }
     }
-    public void initMatrixWithRandomNumbers(int[][] array2, int randomMin, int randomMax){
+    public int[][] initMatrixWithRandomNumbers(int m, int n, int randomMin, int randomMax){
 
+        int[][] array2 = new int[m][n];
         for(int i = 0; i < array2.length; ++i){
             for(int j = 0; j < array2.length; ++j){
 
@@ -30,5 +31,6 @@ public class MatrixOperation implements IMatrixOperation{
             }
             System.out.println();
         }
+        return array2;
     }
 }
