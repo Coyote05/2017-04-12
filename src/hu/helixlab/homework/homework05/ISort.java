@@ -4,12 +4,12 @@ public interface ISort {
 
     void bubbleSort(int[] bubble);
 
-    void insertionSort();
+    void insertionSort(int[] bubble);
 
-    void selectionSort();
+    void selectionSort(int[] bubble);
 
-    void mergeSort();
+    void mergeSort(int[] bubble);
 
-    void quickSort();
+    void quickSort(int[] bubble);
 }
 
