@@ -26,7 +26,7 @@ public class Main {
         System.out.println();
         System.out.println("Harmadik feladat");
 
-        matrixOperation.initMatrixWithRandomNumbers(3,3, 2,5);
+        matrixOperation.initMatrixWithRandomNumbers(5,4, 2,5);
 
     }
 }
